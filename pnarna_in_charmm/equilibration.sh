@@ -17,7 +17,7 @@ BoxX="63.3650016784668"
 BoxY="64.7229995727539"
 BoxZ="77.66200256347656"
 
-basicpar="openmm,lang,langfbeta=1,dyneqfrq=0,param=36,pstream=toppar_pna_MJ_caps_MF.str,nodeoxy,terlist=PROA:ACE:CTN,langupd=0,dynoutfrq="$stOutput",echeck="$stOutput 
+basicpar="openmm,lang,langfbeta=1,dyneqfrq=0,param=36,pstream=toppar_pna_MJ_caps_MF.str,nodeoxy,terlist=PROA:ACE:CTN,langupd=0,dynoutfrq="$stOutput",echeck="$stOutput
 basicpar2="cutoff=10,cutnb=12,cuton=9"
 basicpar3="dynens=NPT,dynpress=1"
 
@@ -50,3 +50,4 @@ for i in $(eval echo "{1..$numRounds}")
 
 cp $finalStr eq.pdb
 cp $finalRest eq.restart
+#comment
