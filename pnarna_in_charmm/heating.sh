@@ -7,7 +7,7 @@ Tmax="300"
 Tincr="10"
 ConsF="50.0"
 stperT=100000 #200 ps #500=1ps
-stOutput=$((stperCF / 10))
+stOutput=$((stperT / 10))
 Cons1="PROA:2:11"
 Cons2="N01B:13:22"
 BoxX="63.3650016784668"
